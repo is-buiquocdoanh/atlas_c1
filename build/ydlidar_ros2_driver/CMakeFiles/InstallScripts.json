@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/doanh/atlas_c1/build/ydlidar_ros2_driver/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

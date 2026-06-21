@@ -1,0 +1,57 @@
+running egg_info
+creating ../../../build/atlas_web/atlas_web.egg-info
+writing ../../../build/atlas_web/atlas_web.egg-info/PKG-INFO
+writing dependency_links to ../../../build/atlas_web/atlas_web.egg-info/dependency_links.txt
+writing entry points to ../../../build/atlas_web/atlas_web.egg-info/entry_points.txt
+writing requirements to ../../../build/atlas_web/atlas_web.egg-info/requires.txt
+writing top-level names to ../../../build/atlas_web/atlas_web.egg-info/top_level.txt
+writing manifest file '../../../build/atlas_web/atlas_web.egg-info/SOURCES.txt'
+reading manifest file '../../../build/atlas_web/atlas_web.egg-info/SOURCES.txt'
+writing manifest file '../../../build/atlas_web/atlas_web.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/doanh/atlas_c1/build/atlas_web/build
+creating /home/doanh/atlas_c1/build/atlas_web/build/lib
+creating /home/doanh/atlas_c1/build/atlas_web/build/lib/atlas_web
+copying atlas_web/__init__.py -> /home/doanh/atlas_c1/build/atlas_web/build/lib/atlas_web
+copying atlas_web/server.py -> /home/doanh/atlas_c1/build/atlas_web/build/lib/atlas_web
+creating /home/doanh/atlas_c1/build/atlas_web/build/lib/atlas_web/static
+copying atlas_web/static/index.html -> /home/doanh/atlas_c1/build/atlas_web/build/lib/atlas_web/static
+creating /home/doanh/atlas_c1/build/atlas_web/build/lib/atlas_web/static/css
+copying atlas_web/static/css/style.css -> /home/doanh/atlas_c1/build/atlas_web/build/lib/atlas_web/static/css
+creating /home/doanh/atlas_c1/build/atlas_web/build/lib/atlas_web/static/js
+copying atlas_web/static/js/api.js -> /home/doanh/atlas_c1/build/atlas_web/build/lib/atlas_web/static/js
+copying atlas_web/static/js/map.js -> /home/doanh/atlas_c1/build/atlas_web/build/lib/atlas_web/static/js
+copying atlas_web/static/js/panels.js -> /home/doanh/atlas_c1/build/atlas_web/build/lib/atlas_web/static/js
+copying atlas_web/static/js/main.js -> /home/doanh/atlas_c1/build/atlas_web/build/lib/atlas_web/static/js
+copying atlas_web/static/js/joystick.js -> /home/doanh/atlas_c1/build/atlas_web/build/lib/atlas_web/static/js
+running install
+running install_lib
+creating /home/doanh/atlas_c1/install/atlas_web/lib/python3.10/site-packages/atlas_web
+copying /home/doanh/atlas_c1/build/atlas_web/build/lib/atlas_web/__init__.py -> /home/doanh/atlas_c1/install/atlas_web/lib/python3.10/site-packages/atlas_web
+copying /home/doanh/atlas_c1/build/atlas_web/build/lib/atlas_web/server.py -> /home/doanh/atlas_c1/install/atlas_web/lib/python3.10/site-packages/atlas_web
+creating /home/doanh/atlas_c1/install/atlas_web/lib/python3.10/site-packages/atlas_web/static
+creating /home/doanh/atlas_c1/install/atlas_web/lib/python3.10/site-packages/atlas_web/static/css
+copying /home/doanh/atlas_c1/build/atlas_web/build/lib/atlas_web/static/css/style.css -> /home/doanh/atlas_c1/install/atlas_web/lib/python3.10/site-packages/atlas_web/static/css
+copying /home/doanh/atlas_c1/build/atlas_web/build/lib/atlas_web/static/index.html -> /home/doanh/atlas_c1/install/atlas_web/lib/python3.10/site-packages/atlas_web/static
+creating /home/doanh/atlas_c1/install/atlas_web/lib/python3.10/site-packages/atlas_web/static/js
+copying /home/doanh/atlas_c1/build/atlas_web/build/lib/atlas_web/static/js/api.js -> /home/doanh/atlas_c1/install/atlas_web/lib/python3.10/site-packages/atlas_web/static/js
+copying /home/doanh/atlas_c1/build/atlas_web/build/lib/atlas_web/static/js/map.js -> /home/doanh/atlas_c1/install/atlas_web/lib/python3.10/site-packages/atlas_web/static/js
+copying /home/doanh/atlas_c1/build/atlas_web/build/lib/atlas_web/static/js/panels.js -> /home/doanh/atlas_c1/install/atlas_web/lib/python3.10/site-packages/atlas_web/static/js
+copying /home/doanh/atlas_c1/build/atlas_web/build/lib/atlas_web/static/js/main.js -> /home/doanh/atlas_c1/install/atlas_web/lib/python3.10/site-packages/atlas_web/static/js
+copying /home/doanh/atlas_c1/build/atlas_web/build/lib/atlas_web/static/js/joystick.js -> /home/doanh/atlas_c1/install/atlas_web/lib/python3.10/site-packages/atlas_web/static/js
+byte-compiling /home/doanh/atlas_c1/install/atlas_web/lib/python3.10/site-packages/atlas_web/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/doanh/atlas_c1/install/atlas_web/lib/python3.10/site-packages/atlas_web/server.py to server.cpython-310.pyc
+running install_data
+creating /home/doanh/atlas_c1/install/atlas_web/share/ament_index
+creating /home/doanh/atlas_c1/install/atlas_web/share/ament_index/resource_index
+creating /home/doanh/atlas_c1/install/atlas_web/share/ament_index/resource_index/packages
+copying resource/atlas_web -> /home/doanh/atlas_c1/install/atlas_web/share/ament_index/resource_index/packages
+copying package.xml -> /home/doanh/atlas_c1/install/atlas_web/share/atlas_web
+creating /home/doanh/atlas_c1/install/atlas_web/share/atlas_web/launch
+copying launch/atlas_web.launch.py -> /home/doanh/atlas_c1/install/atlas_web/share/atlas_web/launch
+running install_egg_info
+Copying ../../../build/atlas_web/atlas_web.egg-info to /home/doanh/atlas_c1/install/atlas_web/lib/python3.10/site-packages/atlas_web-1.0.0-py3.10.egg-info
+running install_scripts
+Installing atlas_web_node script to /home/doanh/atlas_c1/install/atlas_web/lib/atlas_web
+writing list of installed files to '/home/doanh/atlas_c1/build/atlas_web/install.log'

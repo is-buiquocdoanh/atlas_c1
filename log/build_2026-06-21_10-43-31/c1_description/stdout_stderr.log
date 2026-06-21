@@ -1,0 +1,27 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/doanh/atlas_c1/build/c1_description
+-- Install configuration: ""
+-- Up-to-date: /home/doanh/atlas_c1/install/c1_description/share/c1_description//urdf
+-- Up-to-date: /home/doanh/atlas_c1/install/c1_description/share/c1_description//urdf/c1_robot.urdf
+-- Up-to-date: /home/doanh/atlas_c1/install/c1_description/share/c1_description//launch
+-- Up-to-date: /home/doanh/atlas_c1/install/c1_description/share/c1_description//launch/display.launch.py
+-- Up-to-date: /home/doanh/atlas_c1/install/c1_description/share/c1_description//rviz
+-- Up-to-date: /home/doanh/atlas_c1/install/c1_description/share/c1_description//rviz/display.rviz
+-- Up-to-date: /home/doanh/atlas_c1/install/c1_description/lib/c1_description/mecanum_joint_publisher.py
+-- Up-to-date: /home/doanh/atlas_c1/install/c1_description/share/ament_index/resource_index/package_run_dependencies/c1_description
+-- Installing: /home/doanh/atlas_c1/install/c1_description/share/ament_index/resource_index/parent_prefix_path/c1_description
+-- Up-to-date: /home/doanh/atlas_c1/install/c1_description/share/c1_description/environment/ament_prefix_path.sh
+-- Installing: /home/doanh/atlas_c1/install/c1_description/share/c1_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/doanh/atlas_c1/install/c1_description/share/c1_description/environment/path.sh
+-- Installing: /home/doanh/atlas_c1/install/c1_description/share/c1_description/environment/path.dsv
+-- Up-to-date: /home/doanh/atlas_c1/install/c1_description/share/c1_description/local_setup.bash
+-- Up-to-date: /home/doanh/atlas_c1/install/c1_description/share/c1_description/local_setup.sh
+-- Up-to-date: /home/doanh/atlas_c1/install/c1_description/share/c1_description/local_setup.zsh
+-- Installing: /home/doanh/atlas_c1/install/c1_description/share/c1_description/local_setup.dsv
+-- Installing: /home/doanh/atlas_c1/install/c1_description/share/c1_description/package.dsv
+-- Up-to-date: /home/doanh/atlas_c1/install/c1_description/share/ament_index/resource_index/packages/c1_description
+-- Up-to-date: /home/doanh/atlas_c1/install/c1_description/share/c1_description/cmake/c1_descriptionConfig.cmake
+-- Up-to-date: /home/doanh/atlas_c1/install/c1_description/share/c1_description/cmake/c1_descriptionConfig-version.cmake
+-- Up-to-date: /home/doanh/atlas_c1/install/c1_description/share/c1_description/package.xml

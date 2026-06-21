@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/doanh/atlas_c1/build/rf2o_laser_odometry/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

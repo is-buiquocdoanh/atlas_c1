@@ -1,0 +1,55 @@
+running egg_info
+creating ../../../build/atlas_app/atlas_app.egg-info
+writing ../../../build/atlas_app/atlas_app.egg-info/PKG-INFO
+writing dependency_links to ../../../build/atlas_app/atlas_app.egg-info/dependency_links.txt
+writing entry points to ../../../build/atlas_app/atlas_app.egg-info/entry_points.txt
+writing requirements to ../../../build/atlas_app/atlas_app.egg-info/requires.txt
+writing top-level names to ../../../build/atlas_app/atlas_app.egg-info/top_level.txt
+writing manifest file '../../../build/atlas_app/atlas_app.egg-info/SOURCES.txt'
+reading manifest file '../../../build/atlas_app/atlas_app.egg-info/SOURCES.txt'
+writing manifest file '../../../build/atlas_app/atlas_app.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/doanh/atlas_c1/build/atlas_app/build
+creating /home/doanh/atlas_c1/build/atlas_app/build/lib
+creating /home/doanh/atlas_c1/build/atlas_app/build/lib/atlas_app
+copying atlas_app/__init__.py -> /home/doanh/atlas_c1/build/atlas_app/build/lib/atlas_app
+copying atlas_app/node.py -> /home/doanh/atlas_c1/build/atlas_app/build/lib/atlas_app
+copying atlas_app/server.py -> /home/doanh/atlas_c1/build/atlas_app/build/lib/atlas_app
+copying atlas_app/panels.py -> /home/doanh/atlas_c1/build/atlas_app/build/lib/atlas_app
+copying atlas_app/main_window.py -> /home/doanh/atlas_c1/build/atlas_app/build/lib/atlas_app
+copying atlas_app/main.py -> /home/doanh/atlas_c1/build/atlas_app/build/lib/atlas_app
+copying atlas_app/map_widget.py -> /home/doanh/atlas_c1/build/atlas_app/build/lib/atlas_app
+copying atlas_app/api_client.py -> /home/doanh/atlas_c1/build/atlas_app/build/lib/atlas_app
+running install
+running install_lib
+creating /home/doanh/atlas_c1/install/atlas_app/lib/python3.10/site-packages/atlas_app
+copying /home/doanh/atlas_c1/build/atlas_app/build/lib/atlas_app/__init__.py -> /home/doanh/atlas_c1/install/atlas_app/lib/python3.10/site-packages/atlas_app
+copying /home/doanh/atlas_c1/build/atlas_app/build/lib/atlas_app/node.py -> /home/doanh/atlas_c1/install/atlas_app/lib/python3.10/site-packages/atlas_app
+copying /home/doanh/atlas_c1/build/atlas_app/build/lib/atlas_app/server.py -> /home/doanh/atlas_c1/install/atlas_app/lib/python3.10/site-packages/atlas_app
+copying /home/doanh/atlas_c1/build/atlas_app/build/lib/atlas_app/panels.py -> /home/doanh/atlas_c1/install/atlas_app/lib/python3.10/site-packages/atlas_app
+copying /home/doanh/atlas_c1/build/atlas_app/build/lib/atlas_app/main_window.py -> /home/doanh/atlas_c1/install/atlas_app/lib/python3.10/site-packages/atlas_app
+copying /home/doanh/atlas_c1/build/atlas_app/build/lib/atlas_app/main.py -> /home/doanh/atlas_c1/install/atlas_app/lib/python3.10/site-packages/atlas_app
+copying /home/doanh/atlas_c1/build/atlas_app/build/lib/atlas_app/map_widget.py -> /home/doanh/atlas_c1/install/atlas_app/lib/python3.10/site-packages/atlas_app
+copying /home/doanh/atlas_c1/build/atlas_app/build/lib/atlas_app/api_client.py -> /home/doanh/atlas_c1/install/atlas_app/lib/python3.10/site-packages/atlas_app
+byte-compiling /home/doanh/atlas_c1/install/atlas_app/lib/python3.10/site-packages/atlas_app/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/doanh/atlas_c1/install/atlas_app/lib/python3.10/site-packages/atlas_app/node.py to node.cpython-310.pyc
+byte-compiling /home/doanh/atlas_c1/install/atlas_app/lib/python3.10/site-packages/atlas_app/server.py to server.cpython-310.pyc
+byte-compiling /home/doanh/atlas_c1/install/atlas_app/lib/python3.10/site-packages/atlas_app/panels.py to panels.cpython-310.pyc
+byte-compiling /home/doanh/atlas_c1/install/atlas_app/lib/python3.10/site-packages/atlas_app/main_window.py to main_window.cpython-310.pyc
+byte-compiling /home/doanh/atlas_c1/install/atlas_app/lib/python3.10/site-packages/atlas_app/main.py to main.cpython-310.pyc
+byte-compiling /home/doanh/atlas_c1/install/atlas_app/lib/python3.10/site-packages/atlas_app/map_widget.py to map_widget.cpython-310.pyc
+byte-compiling /home/doanh/atlas_c1/install/atlas_app/lib/python3.10/site-packages/atlas_app/api_client.py to api_client.cpython-310.pyc
+running install_data
+creating /home/doanh/atlas_c1/install/atlas_app/share/ament_index
+creating /home/doanh/atlas_c1/install/atlas_app/share/ament_index/resource_index
+creating /home/doanh/atlas_c1/install/atlas_app/share/ament_index/resource_index/packages
+copying resource/atlas_app -> /home/doanh/atlas_c1/install/atlas_app/share/ament_index/resource_index/packages
+copying package.xml -> /home/doanh/atlas_c1/install/atlas_app/share/atlas_app
+creating /home/doanh/atlas_c1/install/atlas_app/share/atlas_app/launch
+copying launch/atlas_app.launch.py -> /home/doanh/atlas_c1/install/atlas_app/share/atlas_app/launch
+running install_egg_info
+Copying ../../../build/atlas_app/atlas_app.egg-info to /home/doanh/atlas_c1/install/atlas_app/lib/python3.10/site-packages/atlas_app-1.0.0-py3.10.egg-info
+running install_scripts
+Installing atlas_app script to /home/doanh/atlas_c1/install/atlas_app/lib/atlas_app
+writing list of installed files to '/home/doanh/atlas_c1/build/atlas_app/install.log'

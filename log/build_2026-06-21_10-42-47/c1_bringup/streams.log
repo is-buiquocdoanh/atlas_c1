@@ -1,0 +1,15 @@
+[0.639s] Invoking command in '/home/doanh/atlas_c1/build/c1_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --build /home/doanh/atlas_c1/build/c1_bringup -- -j12 -l12
+[0.785s] Invoked command in '/home/doanh/atlas_c1/build/c1_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --build /home/doanh/atlas_c1/build/c1_bringup -- -j12 -l12
+[0.787s] Invoking command in '/home/doanh/atlas_c1/build/c1_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --install /home/doanh/atlas_c1/build/c1_bringup
+[0.911s] -- Install configuration: ""
+[0.911s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_bringup/share/c1_bringup//launch
+[0.912s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.912s]   file INSTALL cannot find "/home/doanh/atlas_c1/src/c1_bringup/urdf": No
+[0.912s]   such file or directory.
+[0.912s] 
+[0.912s] [0m
+[0.912s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_bringup/share/c1_bringup//launch/joystick.launch.py
+[0.912s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_bringup/share/c1_bringup//launch/c1_bringup_pc.launch.py
+[0.912s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_bringup/share/c1_bringup//config
+[0.912s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_bringup/share/c1_bringup//config/joystick.yaml
+[0.949s] Invoked command in '/home/doanh/atlas_c1/build/c1_bringup' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --install /home/doanh/atlas_c1/build/c1_bringup

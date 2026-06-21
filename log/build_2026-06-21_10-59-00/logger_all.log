@@ -1,0 +1,813 @@
+[0.072s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.072s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ad8d89678e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ad8d8aa8e20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ad8d8aa8e20>>)
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.201s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/doanh/atlas_c1'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base) by extension 'ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base) by extensions ['cmake', 'python']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base) by extension 'cmake'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base) by extension 'python'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base) by extensions ['python_setup_py']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base) by extension 'python_setup_py'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_api) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_api) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_api) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_api) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_api) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_api) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_api) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_api) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_api) by extension 'ros'
+[0.220s] DEBUG:colcon.colcon_core.package_identification:Package 'src/atlas_base/atlas_api' with type 'ros.ament_python' and name 'atlas_api'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_app) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_app) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_app) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_app) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_app) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_app) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_app) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_app) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_app) by extension 'ros'
+[0.221s] DEBUG:colcon.colcon_core.package_identification:Package 'src/atlas_base/atlas_app' with type 'ros.ament_python' and name 'atlas_app'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_app_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_app_robot) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_app_robot) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_app_robot) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_app_robot) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_app_robot) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_app_robot) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_app_robot) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_app_robot) by extension 'ros'
+[0.221s] DEBUG:colcon.colcon_core.package_identification:Package 'src/atlas_base/atlas_app_robot' with type 'ros.ament_python' and name 'atlas_app_robot'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps) by extension 'ros'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps) by extensions ['cmake', 'python']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps) by extension 'cmake'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps) by extension 'python'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps) by extensions ['python_setup_py']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps) by extension 'python_setup_py'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map1) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map1) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map1) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map1) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map1) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map1) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map1) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map1) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map1) by extension 'ros'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map1) by extensions ['cmake', 'python']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map1) by extension 'cmake'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map1) by extension 'python'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map1) by extensions ['python_setup_py']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map1) by extension 'python_setup_py'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map5) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map5) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map5) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map5) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map5) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map5) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map5) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map5) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map5) by extension 'ros'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map5) by extensions ['cmake', 'python']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map5) by extension 'cmake'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map5) by extension 'python'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map5) by extensions ['python_setup_py']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map5) by extension 'python_setup_py'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map6) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map6) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map6) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map6) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map6) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map6) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map6) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map6) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map6) by extension 'ros'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map6) by extensions ['cmake', 'python']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map6) by extension 'cmake'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map6) by extension 'python'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map6) by extensions ['python_setup_py']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_maps/map6) by extension 'python_setup_py'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_slam) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_slam) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_slam) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_slam) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_slam) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_slam) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_slam) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_slam) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_slam) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'src/atlas_base/atlas_slam' with type 'ros.ament_cmake' and name 'atlas_slam'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_web) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_web) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_web) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_web) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_web) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_web) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_web) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_web) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/atlas_base/atlas_web) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'src/atlas_base/atlas_web' with type 'ros.ament_python' and name 'atlas_web'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_bringup) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_bringup) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_bringup) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_bringup) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_bringup) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_bringup) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_bringup) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_bringup) by extension 'ros'
+[0.225s] DEBUG:colcon.colcon_core.package_identification:Package 'src/c1_bringup' with type 'ros.ament_cmake' and name 'c1_bringup'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_description) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_description) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_description) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_description) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_description) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_description) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_description) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_description) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_description) by extension 'ros'
+[0.226s] DEBUG:colcon.colcon_core.package_identification:Package 'src/c1_description' with type 'ros.ament_cmake' and name 'c1_description'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_driver) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_driver) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_driver) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_driver) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_driver) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_driver) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_driver) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_driver) by extension 'ros'
+[0.226s] DEBUG:colcon.colcon_core.package_identification:Package 'src/c1_driver' with type 'ros.ament_cmake' and name 'c1_driver'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_platform) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_platform) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_platform) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_platform) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_platform) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_platform) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_platform) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_platform) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_platform) by extension 'ros'
+[0.227s] DEBUG:colcon.colcon_core.package_identification:Package 'src/c1_platform' with type 'ros.ament_cmake' and name 'c1_platform'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_sdk) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_sdk) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_sdk) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_sdk) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_sdk) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_sdk) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_sdk) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_sdk) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_sdk) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_sdk) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_sdk) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_sdk) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_sdk) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_sdk/rf2o_laser_odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_sdk/rf2o_laser_odometry) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_sdk/rf2o_laser_odometry) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_sdk/rf2o_laser_odometry) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_sdk/rf2o_laser_odometry) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_sdk/rf2o_laser_odometry) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_sdk/rf2o_laser_odometry) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_sdk/rf2o_laser_odometry) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_sdk/rf2o_laser_odometry) by extension 'ros'
+[0.228s] DEBUG:colcon.colcon_core.package_identification:Package 'src/c1_sdk/rf2o_laser_odometry' with type 'ros.ament_cmake' and name 'rf2o_laser_odometry'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_sdk/ydlidar_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_sdk/ydlidar_ros2_driver) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_sdk/ydlidar_ros2_driver) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_sdk/ydlidar_ros2_driver) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_sdk/ydlidar_ros2_driver) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_sdk/ydlidar_ros2_driver) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_sdk/ydlidar_ros2_driver) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_sdk/ydlidar_ros2_driver) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/c1_sdk/ydlidar_ros2_driver) by extension 'ros'
+[0.229s] DEBUG:colcon.colcon_core.package_identification:Package 'src/c1_sdk/ydlidar_ros2_driver' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.246s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/doanh/atlas_c1/install
+[0.247s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 429 installed packages in /opt/ros/humble
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'atlas_api' build argument 'cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'atlas_api' build argument 'cmake_target' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'atlas_api' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'atlas_api' build argument 'cmake_clean_cache' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'atlas_api' build argument 'cmake_clean_first' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'atlas_api' build argument 'cmake_force_configure' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'atlas_api' build argument 'ament_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'atlas_api' build argument 'catkin_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'atlas_api' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.280s] DEBUG:colcon.colcon_core.verb:Building package 'atlas_api' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/doanh/atlas_c1/build/atlas_api', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/doanh/atlas_c1/install/atlas_api', 'merge_install': False, 'path': '/home/doanh/atlas_c1/src/atlas_base/atlas_api', 'symlink_install': False, 'test_result_base': None}
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'atlas_app_robot' build argument 'cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'atlas_app_robot' build argument 'cmake_target' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'atlas_app_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'atlas_app_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'atlas_app_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'atlas_app_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'atlas_app_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'atlas_app_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'atlas_app_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.281s] DEBUG:colcon.colcon_core.verb:Building package 'atlas_app_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/doanh/atlas_c1/build/atlas_app_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/doanh/atlas_c1/install/atlas_app_robot', 'merge_install': False, 'path': '/home/doanh/atlas_c1/src/atlas_base/atlas_app_robot', 'symlink_install': False, 'test_result_base': None}
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'atlas_slam' build argument 'cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'atlas_slam' build argument 'cmake_target' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'atlas_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'atlas_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'atlas_slam' build argument 'cmake_clean_first' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'atlas_slam' build argument 'cmake_force_configure' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'atlas_slam' build argument 'ament_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'atlas_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'atlas_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.281s] DEBUG:colcon.colcon_core.verb:Building package 'atlas_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/doanh/atlas_c1/build/atlas_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/doanh/atlas_c1/install/atlas_slam', 'merge_install': False, 'path': '/home/doanh/atlas_c1/src/atlas_base/atlas_slam', 'symlink_install': False, 'test_result_base': None}
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'atlas_web' build argument 'cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'atlas_web' build argument 'cmake_target' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'atlas_web' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'atlas_web' build argument 'cmake_clean_cache' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'atlas_web' build argument 'cmake_clean_first' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'atlas_web' build argument 'cmake_force_configure' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'atlas_web' build argument 'ament_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'atlas_web' build argument 'catkin_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'atlas_web' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.281s] DEBUG:colcon.colcon_core.verb:Building package 'atlas_web' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/doanh/atlas_c1/build/atlas_web', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/doanh/atlas_c1/install/atlas_web', 'merge_install': False, 'path': '/home/doanh/atlas_c1/src/atlas_base/atlas_web', 'symlink_install': False, 'test_result_base': None}
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'c1_bringup' build argument 'cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'c1_bringup' build argument 'cmake_target' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'c1_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'c1_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'c1_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'c1_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'c1_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'c1_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'c1_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.282s] DEBUG:colcon.colcon_core.verb:Building package 'c1_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/doanh/atlas_c1/build/c1_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/doanh/atlas_c1/install/c1_bringup', 'merge_install': False, 'path': '/home/doanh/atlas_c1/src/c1_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'c1_description' build argument 'cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'c1_description' build argument 'cmake_target' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'c1_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'c1_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'c1_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'c1_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'c1_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'c1_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'c1_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.282s] DEBUG:colcon.colcon_core.verb:Building package 'c1_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/doanh/atlas_c1/build/c1_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/doanh/atlas_c1/install/c1_description', 'merge_install': False, 'path': '/home/doanh/atlas_c1/src/c1_description', 'symlink_install': False, 'test_result_base': None}
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'c1_driver' build argument 'cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'c1_driver' build argument 'cmake_target' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'c1_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'c1_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'c1_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'c1_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'c1_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'c1_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'c1_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.282s] DEBUG:colcon.colcon_core.verb:Building package 'c1_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/doanh/atlas_c1/build/c1_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/doanh/atlas_c1/install/c1_driver', 'merge_install': False, 'path': '/home/doanh/atlas_c1/src/c1_driver', 'symlink_install': False, 'test_result_base': None}
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'c1_platform' build argument 'cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'c1_platform' build argument 'cmake_target' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'c1_platform' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'c1_platform' build argument 'cmake_clean_cache' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'c1_platform' build argument 'cmake_clean_first' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'c1_platform' build argument 'cmake_force_configure' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'c1_platform' build argument 'ament_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'c1_platform' build argument 'catkin_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'c1_platform' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.283s] DEBUG:colcon.colcon_core.verb:Building package 'c1_platform' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/doanh/atlas_c1/build/c1_platform', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/doanh/atlas_c1/install/c1_platform', 'merge_install': False, 'path': '/home/doanh/atlas_c1/src/c1_platform', 'symlink_install': False, 'test_result_base': None}
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_target' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_clean_first' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_force_configure' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'ament_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.283s] DEBUG:colcon.colcon_core.verb:Building package 'rf2o_laser_odometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/doanh/atlas_c1/build/rf2o_laser_odometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/doanh/atlas_c1/install/rf2o_laser_odometry', 'merge_install': False, 'path': '/home/doanh/atlas_c1/src/c1_sdk/rf2o_laser_odometry', 'symlink_install': False, 'test_result_base': None}
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.283s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/doanh/atlas_c1/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/doanh/atlas_c1/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/home/doanh/atlas_c1/src/c1_sdk/ydlidar_ros2_driver', 'symlink_install': False, 'test_result_base': None}
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'atlas_app' build argument 'cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'atlas_app' build argument 'cmake_target' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'atlas_app' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'atlas_app' build argument 'cmake_clean_cache' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'atlas_app' build argument 'cmake_clean_first' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'atlas_app' build argument 'cmake_force_configure' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'atlas_app' build argument 'ament_cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'atlas_app' build argument 'catkin_cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'atlas_app' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.284s] DEBUG:colcon.colcon_core.verb:Building package 'atlas_app' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/doanh/atlas_c1/build/atlas_app', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/doanh/atlas_c1/install/atlas_app', 'merge_install': False, 'path': '/home/doanh/atlas_c1/src/atlas_base/atlas_app', 'symlink_install': False, 'test_result_base': None}
+[0.284s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.285s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.285s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/doanh/atlas_c1/src/atlas_base/atlas_slam' with build type 'ament_cmake'
+[0.285s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/doanh/atlas_c1/src/atlas_base/atlas_slam'
+[0.286s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.287s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.287s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.289s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/doanh/atlas_c1/src/atlas_base/atlas_api' with build type 'ament_python'
+[0.289s] Level 1:colcon.colcon_core.shell:create_environment_hook('atlas_api', 'ament_prefix_path')
+[0.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/atlas_api/share/atlas_api/hook/ament_prefix_path.ps1'
+[0.290s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/atlas_c1/install/atlas_api/share/atlas_api/hook/ament_prefix_path.dsv'
+[0.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/atlas_api/share/atlas_api/hook/ament_prefix_path.sh'
+[0.291s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.291s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.293s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/doanh/atlas_c1/src/atlas_base/atlas_app_robot' with build type 'ament_python'
+[0.293s] Level 1:colcon.colcon_core.shell:create_environment_hook('atlas_app_robot', 'ament_prefix_path')
+[0.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/atlas_app_robot/share/atlas_app_robot/hook/ament_prefix_path.ps1'
+[0.294s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/atlas_c1/install/atlas_app_robot/share/atlas_app_robot/hook/ament_prefix_path.dsv'
+[0.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/atlas_app_robot/share/atlas_app_robot/hook/ament_prefix_path.sh'
+[0.295s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.295s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.297s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/doanh/atlas_c1/src/atlas_base/atlas_web' with build type 'ament_python'
+[0.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('atlas_web', 'ament_prefix_path')
+[0.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/atlas_web/share/atlas_web/hook/ament_prefix_path.ps1'
+[0.298s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/atlas_c1/install/atlas_web/share/atlas_web/hook/ament_prefix_path.dsv'
+[0.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/atlas_web/share/atlas_web/hook/ament_prefix_path.sh'
+[0.299s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.299s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.301s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/doanh/atlas_c1/src/c1_bringup' with build type 'ament_cmake'
+[0.301s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/doanh/atlas_c1/src/c1_bringup'
+[0.302s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.302s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.304s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/doanh/atlas_c1/src/c1_description' with build type 'ament_cmake'
+[0.304s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/doanh/atlas_c1/src/c1_description'
+[0.304s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.304s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.307s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/doanh/atlas_c1/src/c1_driver' with build type 'ament_cmake'
+[0.307s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/doanh/atlas_c1/src/c1_driver'
+[0.307s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.307s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.310s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/doanh/atlas_c1/src/c1_platform' with build type 'ament_cmake'
+[0.310s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/doanh/atlas_c1/src/c1_platform'
+[0.310s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.310s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.313s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/doanh/atlas_c1/src/c1_sdk/rf2o_laser_odometry' with build type 'ament_cmake'
+[0.313s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/doanh/atlas_c1/src/c1_sdk/rf2o_laser_odometry'
+[0.313s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.313s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.315s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/doanh/atlas_c1/src/c1_sdk/ydlidar_ros2_driver' with build type 'ament_cmake'
+[0.316s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/doanh/atlas_c1/src/c1_sdk/ydlidar_ros2_driver'
+[0.316s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.316s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doanh/atlas_c1/build/atlas_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --build /home/doanh/atlas_c1/build/atlas_slam -- -j12 -l12
+[0.523s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/doanh/atlas_c1/src/atlas_base/atlas_api'
+[0.523s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.523s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.736s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/doanh/atlas_c1/src/atlas_base/atlas_app_robot'
+[0.737s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.737s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.937s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/doanh/atlas_c1/src/atlas_base/atlas_web'
+[0.937s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.937s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doanh/atlas_c1/build/c1_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --build /home/doanh/atlas_c1/build/c1_bringup -- -j12 -l12
+[0.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doanh/atlas_c1/build/c1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --build /home/doanh/atlas_c1/build/c1_description -- -j12 -l12
+[0.945s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doanh/atlas_c1/build/c1_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --build /home/doanh/atlas_c1/build/c1_driver -- -j12 -l12
+[0.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doanh/atlas_c1/build/c1_platform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --build /home/doanh/atlas_c1/build/c1_platform -- -j12 -l12
+[0.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doanh/atlas_c1/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --build /home/doanh/atlas_c1/build/rf2o_laser_odometry -- -j12 -l12
+[0.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doanh/atlas_c1/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --build /home/doanh/atlas_c1/build/ydlidar_ros2_driver -- -j12 -l12
+[0.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doanh/atlas_c1/build/atlas_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --build /home/doanh/atlas_c1/build/atlas_slam -- -j12 -l12
+[1.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doanh/atlas_c1/build/atlas_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --install /home/doanh/atlas_c1/build/atlas_slam
+[1.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doanh/atlas_c1/build/c1_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --build /home/doanh/atlas_c1/build/c1_bringup -- -j12 -l12
+[1.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doanh/atlas_c1/build/c1_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --install /home/doanh/atlas_c1/build/c1_bringup
+[1.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doanh/atlas_c1/build/c1_platform' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --build /home/doanh/atlas_c1/build/c1_platform -- -j12 -l12
+[1.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doanh/atlas_c1/build/c1_platform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --install /home/doanh/atlas_c1/build/c1_platform
+[1.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doanh/atlas_c1/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --build /home/doanh/atlas_c1/build/rf2o_laser_odometry -- -j12 -l12
+[1.069s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doanh/atlas_c1/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --install /home/doanh/atlas_c1/build/rf2o_laser_odometry
+[1.070s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doanh/atlas_c1/build/c1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --build /home/doanh/atlas_c1/build/c1_description -- -j12 -l12
+[1.071s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doanh/atlas_c1/build/c1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --install /home/doanh/atlas_c1/build/c1_description
+[1.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doanh/atlas_c1/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --build /home/doanh/atlas_c1/build/ydlidar_ros2_driver -- -j12 -l12
+[1.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doanh/atlas_c1/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --install /home/doanh/atlas_c1/build/ydlidar_ros2_driver
+[1.172s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(atlas_slam)
+[1.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doanh/atlas_c1/build/atlas_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --install /home/doanh/atlas_c1/build/atlas_slam
+[1.176s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_slam' for CMake module files
+[1.178s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_slam' for CMake config files
+[1.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('atlas_slam', 'cmake_prefix_path')
+[1.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/atlas_slam/share/atlas_slam/hook/cmake_prefix_path.ps1'
+[1.180s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/atlas_c1/install/atlas_slam/share/atlas_slam/hook/cmake_prefix_path.dsv'
+[1.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/atlas_slam/share/atlas_slam/hook/cmake_prefix_path.sh'
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_slam/lib'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_slam/bin'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_slam/lib/pkgconfig/atlas_slam.pc'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_slam/lib/python3.10/site-packages'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_slam/bin'
+[1.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/atlas_slam/share/atlas_slam/package.ps1'
+[1.185s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doanh/atlas_c1/install/atlas_slam/share/atlas_slam/package.dsv'
+[1.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/atlas_slam/share/atlas_slam/package.sh'
+[1.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/atlas_slam/share/atlas_slam/package.bash'
+[1.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/atlas_slam/share/atlas_slam/package.zsh'
+[1.190s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doanh/atlas_c1/install/atlas_slam/share/colcon-core/packages/atlas_slam)
+[1.190s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(atlas_slam)
+[1.191s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_slam' for CMake module files
+[1.191s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_slam' for CMake config files
+[1.191s] Level 1:colcon.colcon_core.shell:create_environment_hook('atlas_slam', 'cmake_prefix_path')
+[1.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/atlas_slam/share/atlas_slam/hook/cmake_prefix_path.ps1'
+[1.192s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/atlas_c1/install/atlas_slam/share/atlas_slam/hook/cmake_prefix_path.dsv'
+[1.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/atlas_slam/share/atlas_slam/hook/cmake_prefix_path.sh'
+[1.192s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_slam/lib'
+[1.193s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_slam/bin'
+[1.193s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_slam/lib/pkgconfig/atlas_slam.pc'
+[1.193s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_slam/lib/python3.10/site-packages'
+[1.193s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_slam/bin'
+[1.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/atlas_slam/share/atlas_slam/package.ps1'
+[1.194s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doanh/atlas_c1/install/atlas_slam/share/atlas_slam/package.dsv'
+[1.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/atlas_slam/share/atlas_slam/package.sh'
+[1.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/atlas_slam/share/atlas_slam/package.bash'
+[1.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/atlas_slam/share/atlas_slam/package.zsh'
+[1.199s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doanh/atlas_c1/install/atlas_slam/share/colcon-core/packages/atlas_slam)
+[1.199s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/doanh/atlas_c1/src/atlas_base/atlas_app' with build type 'ament_python'
+[1.199s] Level 1:colcon.colcon_core.shell:create_environment_hook('atlas_app', 'ament_prefix_path')
+[1.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/atlas_app/share/atlas_app/hook/ament_prefix_path.ps1'
+[1.200s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/atlas_c1/install/atlas_app/share/atlas_app/hook/ament_prefix_path.dsv'
+[1.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/atlas_app/share/atlas_app/hook/ament_prefix_path.sh'
+[1.201s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.201s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.208s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(c1_bringup)
+[1.209s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_bringup' for CMake module files
+[1.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doanh/atlas_c1/build/c1_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --install /home/doanh/atlas_c1/build/c1_bringup
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_bringup' for CMake config files
+[1.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('c1_bringup', 'cmake_prefix_path')
+[1.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/c1_bringup/share/c1_bringup/hook/cmake_prefix_path.ps1'
+[1.210s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/atlas_c1/install/c1_bringup/share/c1_bringup/hook/cmake_prefix_path.dsv'
+[1.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/c1_bringup/share/c1_bringup/hook/cmake_prefix_path.sh'
+[1.211s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_bringup/bin'
+[1.211s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_bringup/lib/pkgconfig/c1_bringup.pc'
+[1.211s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_bringup/lib/python3.10/site-packages'
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_bringup/bin'
+[1.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/c1_bringup/share/c1_bringup/package.ps1'
+[1.212s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doanh/atlas_c1/install/c1_bringup/share/c1_bringup/package.dsv'
+[1.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/c1_bringup/share/c1_bringup/package.sh'
+[1.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/c1_bringup/share/c1_bringup/package.bash'
+[1.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/c1_bringup/share/c1_bringup/package.zsh'
+[1.213s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doanh/atlas_c1/install/c1_bringup/share/colcon-core/packages/c1_bringup)
+[1.214s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(c1_bringup)
+[1.214s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_bringup' for CMake module files
+[1.215s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_bringup' for CMake config files
+[1.215s] Level 1:colcon.colcon_core.shell:create_environment_hook('c1_bringup', 'cmake_prefix_path')
+[1.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/c1_bringup/share/c1_bringup/hook/cmake_prefix_path.ps1'
+[1.216s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/atlas_c1/install/c1_bringup/share/c1_bringup/hook/cmake_prefix_path.dsv'
+[1.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/c1_bringup/share/c1_bringup/hook/cmake_prefix_path.sh'
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_bringup/bin'
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_bringup/lib/pkgconfig/c1_bringup.pc'
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_bringup/lib/python3.10/site-packages'
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_bringup/bin'
+[1.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/c1_bringup/share/c1_bringup/package.ps1'
+[1.218s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doanh/atlas_c1/install/c1_bringup/share/c1_bringup/package.dsv'
+[1.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/c1_bringup/share/c1_bringup/package.sh'
+[1.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/c1_bringup/share/c1_bringup/package.bash'
+[1.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/c1_bringup/share/c1_bringup/package.zsh'
+[1.219s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doanh/atlas_c1/install/c1_bringup/share/colcon-core/packages/c1_bringup)
+[1.219s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(c1_platform)
+[1.220s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_platform' for CMake module files
+[1.220s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_platform' for CMake config files
+[1.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doanh/atlas_c1/build/c1_platform' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --install /home/doanh/atlas_c1/build/c1_platform
+[1.221s] Level 1:colcon.colcon_core.shell:create_environment_hook('c1_platform', 'cmake_prefix_path')
+[1.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/c1_platform/share/c1_platform/hook/cmake_prefix_path.ps1'
+[1.222s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/atlas_c1/install/c1_platform/share/c1_platform/hook/cmake_prefix_path.dsv'
+[1.222s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/c1_platform/share/c1_platform/hook/cmake_prefix_path.sh'
+[1.222s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_platform/bin'
+[1.222s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_platform/lib/pkgconfig/c1_platform.pc'
+[1.222s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_platform/lib/python3.10/site-packages'
+[1.223s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_platform/bin'
+[1.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/c1_platform/share/c1_platform/package.ps1'
+[1.223s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doanh/atlas_c1/install/c1_platform/share/c1_platform/package.dsv'
+[1.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/c1_platform/share/c1_platform/package.sh'
+[1.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/c1_platform/share/c1_platform/package.bash'
+[1.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/c1_platform/share/c1_platform/package.zsh'
+[1.224s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doanh/atlas_c1/install/c1_platform/share/colcon-core/packages/c1_platform)
+[1.225s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(c1_platform)
+[1.225s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_platform' for CMake module files
+[1.225s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_platform' for CMake config files
+[1.225s] Level 1:colcon.colcon_core.shell:create_environment_hook('c1_platform', 'cmake_prefix_path')
+[1.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/c1_platform/share/c1_platform/hook/cmake_prefix_path.ps1'
+[1.226s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/atlas_c1/install/c1_platform/share/c1_platform/hook/cmake_prefix_path.dsv'
+[1.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/c1_platform/share/c1_platform/hook/cmake_prefix_path.sh'
+[1.226s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_platform/bin'
+[1.226s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_platform/lib/pkgconfig/c1_platform.pc'
+[1.227s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_platform/lib/python3.10/site-packages'
+[1.227s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_platform/bin'
+[1.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/c1_platform/share/c1_platform/package.ps1'
+[1.228s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doanh/atlas_c1/install/c1_platform/share/c1_platform/package.dsv'
+[1.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/c1_platform/share/c1_platform/package.sh'
+[1.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/c1_platform/share/c1_platform/package.bash'
+[1.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/c1_platform/share/c1_platform/package.zsh'
+[1.229s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doanh/atlas_c1/install/c1_platform/share/colcon-core/packages/c1_platform)
+[1.229s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(c1_description)
+[1.229s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_description' for CMake module files
+[1.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doanh/atlas_c1/build/c1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --install /home/doanh/atlas_c1/build/c1_description
+[1.231s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_description' for CMake config files
+[1.231s] Level 1:colcon.colcon_core.shell:create_environment_hook('c1_description', 'cmake_prefix_path')
+[1.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/c1_description/share/c1_description/hook/cmake_prefix_path.ps1'
+[1.232s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/atlas_c1/install/c1_description/share/c1_description/hook/cmake_prefix_path.dsv'
+[1.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/c1_description/share/c1_description/hook/cmake_prefix_path.sh'
+[1.233s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_description/lib'
+[1.233s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_description/bin'
+[1.233s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_description/lib/pkgconfig/c1_description.pc'
+[1.233s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_description/lib/python3.10/site-packages'
+[1.233s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_description/bin'
+[1.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/c1_description/share/c1_description/package.ps1'
+[1.234s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doanh/atlas_c1/install/c1_description/share/c1_description/package.dsv'
+[1.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/c1_description/share/c1_description/package.sh'
+[1.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/c1_description/share/c1_description/package.bash'
+[1.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/c1_description/share/c1_description/package.zsh'
+[1.235s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doanh/atlas_c1/install/c1_description/share/colcon-core/packages/c1_description)
+[1.236s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(c1_description)
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_description' for CMake module files
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_description' for CMake config files
+[1.237s] Level 1:colcon.colcon_core.shell:create_environment_hook('c1_description', 'cmake_prefix_path')
+[1.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/c1_description/share/c1_description/hook/cmake_prefix_path.ps1'
+[1.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/atlas_c1/install/c1_description/share/c1_description/hook/cmake_prefix_path.dsv'
+[1.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/c1_description/share/c1_description/hook/cmake_prefix_path.sh'
+[1.238s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_description/lib'
+[1.238s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_description/bin'
+[1.238s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_description/lib/pkgconfig/c1_description.pc'
+[1.238s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_description/lib/python3.10/site-packages'
+[1.239s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_description/bin'
+[1.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/c1_description/share/c1_description/package.ps1'
+[1.239s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doanh/atlas_c1/install/c1_description/share/c1_description/package.dsv'
+[1.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/c1_description/share/c1_description/package.sh'
+[1.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/c1_description/share/c1_description/package.bash'
+[1.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/c1_description/share/c1_description/package.zsh'
+[1.241s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doanh/atlas_c1/install/c1_description/share/colcon-core/packages/c1_description)
+[1.241s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rf2o_laser_odometry)
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/rf2o_laser_odometry' for CMake module files
+[1.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doanh/atlas_c1/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --install /home/doanh/atlas_c1/build/rf2o_laser_odometry
+[1.242s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/rf2o_laser_odometry' for CMake config files
+[1.242s] Level 1:colcon.colcon_core.shell:create_environment_hook('rf2o_laser_odometry', 'cmake_prefix_path')
+[1.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.ps1'
+[1.243s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/atlas_c1/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.dsv'
+[1.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.sh'
+[1.243s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/rf2o_laser_odometry/lib'
+[1.243s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/rf2o_laser_odometry/bin'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/rf2o_laser_odometry/lib/pkgconfig/rf2o_laser_odometry.pc'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/rf2o_laser_odometry/lib/python3.10/site-packages'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/rf2o_laser_odometry/bin'
+[1.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.ps1'
+[1.245s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doanh/atlas_c1/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv'
+[1.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.sh'
+[1.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.bash'
+[1.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.zsh'
+[1.246s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doanh/atlas_c1/install/rf2o_laser_odometry/share/colcon-core/packages/rf2o_laser_odometry)
+[1.246s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rf2o_laser_odometry)
+[1.246s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/rf2o_laser_odometry' for CMake module files
+[1.247s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/rf2o_laser_odometry' for CMake config files
+[1.247s] Level 1:colcon.colcon_core.shell:create_environment_hook('rf2o_laser_odometry', 'cmake_prefix_path')
+[1.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.ps1'
+[1.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/atlas_c1/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.dsv'
+[1.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.sh'
+[1.249s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/rf2o_laser_odometry/lib'
+[1.249s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/rf2o_laser_odometry/bin'
+[1.249s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/rf2o_laser_odometry/lib/pkgconfig/rf2o_laser_odometry.pc'
+[1.249s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/rf2o_laser_odometry/lib/python3.10/site-packages'
+[1.249s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/rf2o_laser_odometry/bin'
+[1.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.ps1'
+[1.250s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doanh/atlas_c1/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv'
+[1.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.sh'
+[1.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.bash'
+[1.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.zsh'
+[1.251s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doanh/atlas_c1/install/rf2o_laser_odometry/share/colcon-core/packages/rf2o_laser_odometry)
+[1.252s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[1.252s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/ydlidar_ros2_driver' for CMake module files
+[1.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doanh/atlas_c1/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --install /home/doanh/atlas_c1/build/ydlidar_ros2_driver
+[1.254s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/ydlidar_ros2_driver' for CMake config files
+[1.254s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[1.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[1.255s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/atlas_c1/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[1.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/ydlidar_ros2_driver/lib'
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/ydlidar_ros2_driver/bin'
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[1.257s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/ydlidar_ros2_driver/bin'
+[1.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[1.258s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doanh/atlas_c1/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[1.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[1.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[1.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[1.260s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doanh/atlas_c1/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[1.260s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[1.261s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/ydlidar_ros2_driver' for CMake module files
+[1.261s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/ydlidar_ros2_driver' for CMake config files
+[1.262s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[1.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[1.262s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/atlas_c1/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[1.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[1.263s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/ydlidar_ros2_driver/lib'
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/ydlidar_ros2_driver/bin'
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/ydlidar_ros2_driver/bin'
+[1.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[1.266s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doanh/atlas_c1/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[1.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[1.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[1.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[1.268s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doanh/atlas_c1/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[1.526s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/doanh/atlas_c1/src/atlas_base/atlas_app'
+[1.527s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.527s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doanh/atlas_c1/build/c1_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --build /home/doanh/atlas_c1/build/c1_driver -- -j12 -l12
+[1.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doanh/atlas_c1/build/c1_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --install /home/doanh/atlas_c1/build/c1_driver
+[1.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doanh/atlas_c1/src/atlas_base/atlas_app_robot': PYTHONPATH=/home/doanh/atlas_c1/build/atlas_app_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/doanh/atlas_c1/install/atlas_app_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/atlas_app_robot build --build-base /home/doanh/atlas_c1/build/atlas_app_robot/build install --record /home/doanh/atlas_c1/build/atlas_app_robot/install.log --single-version-externally-managed install_data
+[1.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doanh/atlas_c1/src/atlas_base/atlas_api': PYTHONPATH=/home/doanh/atlas_c1/build/atlas_api/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/atlas_api build --build-base /home/doanh/atlas_c1/build/atlas_api/build install --record /home/doanh/atlas_c1/build/atlas_api/install.log --single-version-externally-managed install_data
+[1.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doanh/atlas_c1/src/atlas_base/atlas_web': PYTHONPATH=/home/doanh/atlas_c1/build/atlas_web/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/doanh/atlas_c1/install/atlas_web/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/atlas_web build --build-base /home/doanh/atlas_c1/build/atlas_web/build install --record /home/doanh/atlas_c1/build/atlas_web/install.log --single-version-externally-managed install_data
+[1.644s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(c1_driver)
+[1.644s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_driver' for CMake module files
+[1.645s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_driver' for CMake config files
+[1.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doanh/atlas_c1/build/c1_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --install /home/doanh/atlas_c1/build/c1_driver
+[1.648s] Level 1:colcon.colcon_core.shell:create_environment_hook('c1_driver', 'cmake_prefix_path')
+[1.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/c1_driver/share/c1_driver/hook/cmake_prefix_path.ps1'
+[1.648s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/atlas_c1/install/c1_driver/share/c1_driver/hook/cmake_prefix_path.dsv'
+[1.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/c1_driver/share/c1_driver/hook/cmake_prefix_path.sh'
+[1.650s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_driver/lib'
+[1.650s] Level 1:colcon.colcon_core.shell:create_environment_hook('c1_driver', 'ld_library_path_lib')
+[1.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/c1_driver/share/c1_driver/hook/ld_library_path_lib.ps1'
+[1.650s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/atlas_c1/install/c1_driver/share/c1_driver/hook/ld_library_path_lib.dsv'
+[1.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/c1_driver/share/c1_driver/hook/ld_library_path_lib.sh'
+[1.651s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_driver/bin'
+[1.651s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_driver/lib/pkgconfig/c1_driver.pc'
+[1.651s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_driver/lib/python3.10/site-packages'
+[1.652s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_driver/bin'
+[1.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/c1_driver/share/c1_driver/package.ps1'
+[1.653s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doanh/atlas_c1/install/c1_driver/share/c1_driver/package.dsv'
+[1.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/c1_driver/share/c1_driver/package.sh'
+[1.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/c1_driver/share/c1_driver/package.bash'
+[1.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/c1_driver/share/c1_driver/package.zsh'
+[1.655s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doanh/atlas_c1/install/c1_driver/share/colcon-core/packages/c1_driver)
+[1.655s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(c1_driver)
+[1.656s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_driver' for CMake module files
+[1.656s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_driver' for CMake config files
+[1.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('c1_driver', 'cmake_prefix_path')
+[1.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/c1_driver/share/c1_driver/hook/cmake_prefix_path.ps1'
+[1.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/atlas_c1/install/c1_driver/share/c1_driver/hook/cmake_prefix_path.dsv'
+[1.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/c1_driver/share/c1_driver/hook/cmake_prefix_path.sh'
+[1.659s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_driver/lib'
+[1.659s] Level 1:colcon.colcon_core.shell:create_environment_hook('c1_driver', 'ld_library_path_lib')
+[1.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/c1_driver/share/c1_driver/hook/ld_library_path_lib.ps1'
+[1.659s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/atlas_c1/install/c1_driver/share/c1_driver/hook/ld_library_path_lib.dsv'
+[1.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/c1_driver/share/c1_driver/hook/ld_library_path_lib.sh'
+[1.660s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_driver/bin'
+[1.660s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_driver/lib/pkgconfig/c1_driver.pc'
+[1.660s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_driver/lib/python3.10/site-packages'
+[1.661s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/c1_driver/bin'
+[1.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/c1_driver/share/c1_driver/package.ps1'
+[1.661s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doanh/atlas_c1/install/c1_driver/share/c1_driver/package.dsv'
+[1.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/c1_driver/share/c1_driver/package.sh'
+[1.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/c1_driver/share/c1_driver/package.bash'
+[1.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/c1_driver/share/c1_driver/package.zsh'
+[1.663s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doanh/atlas_c1/install/c1_driver/share/colcon-core/packages/c1_driver)
+[1.828s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_app_robot' for CMake module files
+[1.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doanh/atlas_c1/src/atlas_base/atlas_app_robot' returned '0': PYTHONPATH=/home/doanh/atlas_c1/build/atlas_app_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/doanh/atlas_c1/install/atlas_app_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/atlas_app_robot build --build-base /home/doanh/atlas_c1/build/atlas_app_robot/build install --record /home/doanh/atlas_c1/build/atlas_app_robot/install.log --single-version-externally-managed install_data
+[1.829s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_app_robot' for CMake config files
+[1.830s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_app_robot/lib'
+[1.830s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_app_robot/bin'
+[1.830s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_app_robot/lib/pkgconfig/atlas_app_robot.pc'
+[1.830s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_app_robot/lib/python3.10/site-packages'
+[1.830s] Level 1:colcon.colcon_core.shell:create_environment_hook('atlas_app_robot', 'pythonpath')
+[1.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/atlas_app_robot/share/atlas_app_robot/hook/pythonpath.ps1'
+[1.831s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/atlas_c1/install/atlas_app_robot/share/atlas_app_robot/hook/pythonpath.dsv'
+[1.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/atlas_app_robot/share/atlas_app_robot/hook/pythonpath.sh'
+[1.832s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_app_robot/bin'
+[1.832s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(atlas_app_robot)
+[1.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/atlas_app_robot/share/atlas_app_robot/package.ps1'
+[1.833s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doanh/atlas_c1/install/atlas_app_robot/share/atlas_app_robot/package.dsv'
+[1.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/atlas_app_robot/share/atlas_app_robot/package.sh'
+[1.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/atlas_app_robot/share/atlas_app_robot/package.bash'
+[1.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/atlas_app_robot/share/atlas_app_robot/package.zsh'
+[1.836s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doanh/atlas_c1/install/atlas_app_robot/share/colcon-core/packages/atlas_app_robot)
+[1.897s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_api' for CMake module files
+[1.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doanh/atlas_c1/src/atlas_base/atlas_api' returned '0': PYTHONPATH=/home/doanh/atlas_c1/build/atlas_api/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/atlas_api build --build-base /home/doanh/atlas_c1/build/atlas_api/build install --record /home/doanh/atlas_c1/build/atlas_api/install.log --single-version-externally-managed install_data
+[1.898s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_api' for CMake config files
+[1.899s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_api/lib'
+[1.899s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_api/bin'
+[1.899s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_api/lib/pkgconfig/atlas_api.pc'
+[1.899s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages'
+[1.899s] Level 1:colcon.colcon_core.shell:create_environment_hook('atlas_api', 'pythonpath')
+[1.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/atlas_api/share/atlas_api/hook/pythonpath.ps1'
+[1.899s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/atlas_c1/install/atlas_api/share/atlas_api/hook/pythonpath.dsv'
+[1.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/atlas_api/share/atlas_api/hook/pythonpath.sh'
+[1.900s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_api/bin'
+[1.900s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(atlas_api)
+[1.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/atlas_api/share/atlas_api/package.ps1'
+[1.901s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doanh/atlas_c1/install/atlas_api/share/atlas_api/package.dsv'
+[1.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/atlas_api/share/atlas_api/package.sh'
+[1.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/atlas_api/share/atlas_api/package.bash'
+[1.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/atlas_api/share/atlas_api/package.zsh'
+[1.902s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doanh/atlas_c1/install/atlas_api/share/colcon-core/packages/atlas_api)
+[1.903s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_web' for CMake module files
+[1.904s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_web' for CMake config files
+[1.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doanh/atlas_c1/src/atlas_base/atlas_web' returned '0': PYTHONPATH=/home/doanh/atlas_c1/build/atlas_web/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/doanh/atlas_c1/install/atlas_web/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/atlas_web build --build-base /home/doanh/atlas_c1/build/atlas_web/build install --record /home/doanh/atlas_c1/build/atlas_web/install.log --single-version-externally-managed install_data
+[1.905s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_web/lib'
+[1.905s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_web/bin'
+[1.905s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_web/lib/pkgconfig/atlas_web.pc'
+[1.905s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_web/lib/python3.10/site-packages'
+[1.906s] Level 1:colcon.colcon_core.shell:create_environment_hook('atlas_web', 'pythonpath')
+[1.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/atlas_web/share/atlas_web/hook/pythonpath.ps1'
+[1.907s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/atlas_c1/install/atlas_web/share/atlas_web/hook/pythonpath.dsv'
+[1.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/atlas_web/share/atlas_web/hook/pythonpath.sh'
+[1.908s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_web/bin'
+[1.908s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(atlas_web)
+[1.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/atlas_web/share/atlas_web/package.ps1'
+[1.909s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doanh/atlas_c1/install/atlas_web/share/atlas_web/package.dsv'
+[1.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/atlas_web/share/atlas_web/package.sh'
+[1.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/atlas_web/share/atlas_web/package.bash'
+[1.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/atlas_web/share/atlas_web/package.zsh'
+[1.910s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doanh/atlas_c1/install/atlas_web/share/colcon-core/packages/atlas_web)
+[1.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doanh/atlas_c1/src/atlas_base/atlas_app': PYTHONPATH=/home/doanh/atlas_c1/build/atlas_app/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/doanh/atlas_c1/install/atlas_app/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/atlas_app build --build-base /home/doanh/atlas_c1/build/atlas_app/build install --record /home/doanh/atlas_c1/build/atlas_app/install.log --single-version-externally-managed install_data
+[2.237s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_app' for CMake module files
+[2.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doanh/atlas_c1/src/atlas_base/atlas_app' returned '0': PYTHONPATH=/home/doanh/atlas_c1/build/atlas_app/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/doanh/atlas_c1/install/atlas_app/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/atlas_app build --build-base /home/doanh/atlas_c1/build/atlas_app/build install --record /home/doanh/atlas_c1/build/atlas_app/install.log --single-version-externally-managed install_data
+[2.238s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_app' for CMake config files
+[2.239s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_app/lib'
+[2.239s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_app/bin'
+[2.239s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_app/lib/pkgconfig/atlas_app.pc'
+[2.239s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_app/lib/python3.10/site-packages'
+[2.239s] Level 1:colcon.colcon_core.shell:create_environment_hook('atlas_app', 'pythonpath')
+[2.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/atlas_app/share/atlas_app/hook/pythonpath.ps1'
+[2.240s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/atlas_c1/install/atlas_app/share/atlas_app/hook/pythonpath.dsv'
+[2.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/atlas_c1/install/atlas_app/share/atlas_app/hook/pythonpath.sh'
+[2.241s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/atlas_c1/install/atlas_app/bin'
+[2.241s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(atlas_app)
+[2.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/atlas_app/share/atlas_app/package.ps1'
+[2.243s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doanh/atlas_c1/install/atlas_app/share/atlas_app/package.dsv'
+[2.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/atlas_app/share/atlas_app/package.sh'
+[2.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/atlas_app/share/atlas_app/package.bash'
+[2.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/atlas_c1/install/atlas_app/share/atlas_app/package.zsh'
+[2.244s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doanh/atlas_c1/install/atlas_app/share/colcon-core/packages/atlas_app)
+[2.244s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.244s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.244s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.245s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.249s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.249s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.249s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.257s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.258s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/doanh/atlas_c1/install/local_setup.ps1'
+[2.259s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/doanh/atlas_c1/install/_local_setup_util_ps1.py'
+[2.260s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/doanh/atlas_c1/install/setup.ps1'
+[2.261s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/doanh/atlas_c1/install/local_setup.sh'
+[2.261s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/doanh/atlas_c1/install/_local_setup_util_sh.py'
+[2.261s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/doanh/atlas_c1/install/setup.sh'
+[2.262s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/doanh/atlas_c1/install/local_setup.bash'
+[2.263s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/doanh/atlas_c1/install/setup.bash'
+[2.263s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/doanh/atlas_c1/install/local_setup.zsh'
+[2.264s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/doanh/atlas_c1/install/setup.zsh'

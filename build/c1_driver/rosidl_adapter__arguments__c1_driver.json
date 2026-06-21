@@ -1,0 +1,7 @@
+{
+  "package_name": "c1_driver",
+  "non_idl_tuples": [
+    "/home/doanh/atlas_c1/src/c1_driver:msg/Velinfo.msg",
+    "/home/doanh/atlas_c1/src/c1_driver:msg/Velquery.msg"
+  ]
+}

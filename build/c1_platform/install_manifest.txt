@@ -1,0 +1,15 @@
+/home/doanh/atlas_c1/install/c1_platform/share/ament_index/resource_index/package_run_dependencies/c1_platform
+/home/doanh/atlas_c1/install/c1_platform/share/ament_index/resource_index/parent_prefix_path/c1_platform
+/home/doanh/atlas_c1/install/c1_platform/share/c1_platform/environment/ament_prefix_path.sh
+/home/doanh/atlas_c1/install/c1_platform/share/c1_platform/environment/ament_prefix_path.dsv
+/home/doanh/atlas_c1/install/c1_platform/share/c1_platform/environment/path.sh
+/home/doanh/atlas_c1/install/c1_platform/share/c1_platform/environment/path.dsv
+/home/doanh/atlas_c1/install/c1_platform/share/c1_platform/local_setup.bash
+/home/doanh/atlas_c1/install/c1_platform/share/c1_platform/local_setup.sh
+/home/doanh/atlas_c1/install/c1_platform/share/c1_platform/local_setup.zsh
+/home/doanh/atlas_c1/install/c1_platform/share/c1_platform/local_setup.dsv
+/home/doanh/atlas_c1/install/c1_platform/share/c1_platform/package.dsv
+/home/doanh/atlas_c1/install/c1_platform/share/ament_index/resource_index/packages/c1_platform
+/home/doanh/atlas_c1/install/c1_platform/share/c1_platform/cmake/c1_platformConfig.cmake
+/home/doanh/atlas_c1/install/c1_platform/share/c1_platform/cmake/c1_platformConfig-version.cmake
+/home/doanh/atlas_c1/install/c1_platform/share/c1_platform/package.xml

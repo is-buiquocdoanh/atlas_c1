@@ -1,0 +1,4 @@
+Invoking command in '/home/doanh/atlas_c1/build/c1_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /home/doanh/.local/bin/cmake --build /home/doanh/atlas_c1/build/c1_driver -- -j12 -l12
+Invoked command in '/home/doanh/atlas_c1/build/c1_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/doanh/.local/bin/cmake --build /home/doanh/atlas_c1/build/c1_driver -- -j12 -l12
+Invoking command in '/home/doanh/atlas_c1/build/c1_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /home/doanh/.local/bin/cmake --install /home/doanh/atlas_c1/build/c1_driver
+Invoked command in '/home/doanh/atlas_c1/build/c1_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/doanh/.local/bin/cmake --install /home/doanh/atlas_c1/build/c1_driver

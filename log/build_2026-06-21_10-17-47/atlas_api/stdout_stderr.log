@@ -1,0 +1,86 @@
+running egg_info
+creating ../../../build/atlas_api/atlas_api.egg-info
+writing ../../../build/atlas_api/atlas_api.egg-info/PKG-INFO
+writing dependency_links to ../../../build/atlas_api/atlas_api.egg-info/dependency_links.txt
+writing entry points to ../../../build/atlas_api/atlas_api.egg-info/entry_points.txt
+writing requirements to ../../../build/atlas_api/atlas_api.egg-info/requires.txt
+writing top-level names to ../../../build/atlas_api/atlas_api.egg-info/top_level.txt
+writing manifest file '../../../build/atlas_api/atlas_api.egg-info/SOURCES.txt'
+reading manifest file '../../../build/atlas_api/atlas_api.egg-info/SOURCES.txt'
+writing manifest file '../../../build/atlas_api/atlas_api.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/doanh/atlas_c1/build/atlas_api/build
+creating /home/doanh/atlas_c1/build/atlas_api/build/lib
+creating /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api
+copying atlas_api/__init__.py -> /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api
+copying atlas_api/main.py -> /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api
+copying atlas_api/ws_server.py -> /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api
+copying atlas_api/app.py -> /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api
+copying atlas_api/ros_node.py -> /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api
+copying atlas_api/launch_manager.py -> /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api
+creating /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api/routes
+copying atlas_api/routes/__init__.py -> /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api/routes
+copying atlas_api/routes/navigation.py -> /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api/routes
+copying atlas_api/routes/route_api.py -> /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api/routes
+copying atlas_api/routes/settings.py -> /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api/routes
+copying atlas_api/routes/upgrade.py -> /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api/routes
+copying atlas_api/routes/chassis.py -> /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api/routes
+copying atlas_api/routes/layers.py -> /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api/routes
+copying atlas_api/routes/map_api.py -> /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api/routes
+copying atlas_api/routes/system.py -> /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api/routes
+copying atlas_api/routes/waypoints.py -> /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api/routes
+creating /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api/static
+copying atlas_api/static/index.html -> /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api/static
+running install
+running install_lib
+creating /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api
+copying /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api/__init__.py -> /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api
+copying /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api/main.py -> /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api
+copying /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api/ws_server.py -> /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api
+creating /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api/routes
+copying /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api/routes/__init__.py -> /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api/routes
+copying /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api/routes/navigation.py -> /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api/routes
+copying /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api/routes/route_api.py -> /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api/routes
+copying /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api/routes/settings.py -> /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api/routes
+copying /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api/routes/upgrade.py -> /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api/routes
+copying /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api/routes/chassis.py -> /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api/routes
+copying /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api/routes/layers.py -> /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api/routes
+copying /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api/routes/map_api.py -> /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api/routes
+copying /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api/routes/system.py -> /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api/routes
+copying /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api/routes/waypoints.py -> /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api/routes
+copying /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api/app.py -> /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api
+creating /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api/static
+copying /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api/static/index.html -> /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api/static
+copying /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api/ros_node.py -> /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api
+copying /home/doanh/atlas_c1/build/atlas_api/build/lib/atlas_api/launch_manager.py -> /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api
+byte-compiling /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api/main.py to main.cpython-310.pyc
+byte-compiling /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api/ws_server.py to ws_server.cpython-310.pyc
+byte-compiling /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api/routes/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api/routes/navigation.py to navigation.cpython-310.pyc
+byte-compiling /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api/routes/route_api.py to route_api.cpython-310.pyc
+byte-compiling /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api/routes/settings.py to settings.cpython-310.pyc
+byte-compiling /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api/routes/upgrade.py to upgrade.cpython-310.pyc
+byte-compiling /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api/routes/chassis.py to chassis.cpython-310.pyc
+byte-compiling /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api/routes/layers.py to layers.cpython-310.pyc
+byte-compiling /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api/routes/map_api.py to map_api.cpython-310.pyc
+byte-compiling /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api/routes/system.py to system.cpython-310.pyc
+byte-compiling /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api/routes/waypoints.py to waypoints.cpython-310.pyc
+byte-compiling /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api/app.py to app.cpython-310.pyc
+byte-compiling /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api/ros_node.py to ros_node.cpython-310.pyc
+byte-compiling /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api/launch_manager.py to launch_manager.cpython-310.pyc
+running install_data
+creating /home/doanh/atlas_c1/install/atlas_api/share/ament_index
+creating /home/doanh/atlas_c1/install/atlas_api/share/ament_index/resource_index
+creating /home/doanh/atlas_c1/install/atlas_api/share/ament_index/resource_index/packages
+copying resource/atlas_api -> /home/doanh/atlas_c1/install/atlas_api/share/ament_index/resource_index/packages
+copying package.xml -> /home/doanh/atlas_c1/install/atlas_api/share/atlas_api
+creating /home/doanh/atlas_c1/install/atlas_api/share/atlas_api/launch
+copying launch/atlas_api_real.launch.py -> /home/doanh/atlas_c1/install/atlas_api/share/atlas_api/launch
+copying launch/atlas_api_sim.launch.py -> /home/doanh/atlas_c1/install/atlas_api/share/atlas_api/launch
+running install_egg_info
+Copying ../../../build/atlas_api/atlas_api.egg-info to /home/doanh/atlas_c1/install/atlas_api/lib/python3.10/site-packages/atlas_api-0.1.0-py3.10.egg-info
+running install_scripts
+Installing atlas_api_node script to /home/doanh/atlas_c1/install/atlas_api/lib/atlas_api
+writing list of installed files to '/home/doanh/atlas_c1/build/atlas_api/install.log'

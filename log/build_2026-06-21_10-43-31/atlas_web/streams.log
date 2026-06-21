@@ -1,0 +1,21 @@
+[1.293s] Invoking command in '/home/doanh/atlas_c1/src/atlas_base/atlas_web': PYTHONPATH=/home/doanh/atlas_c1/build/atlas_web/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/doanh/atlas_c1/install/atlas_web/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/atlas_web build --build-base /home/doanh/atlas_c1/build/atlas_web/build install --record /home/doanh/atlas_c1/build/atlas_web/install.log --single-version-externally-managed install_data
+[1.594s] running egg_info
+[1.595s] writing ../../../build/atlas_web/atlas_web.egg-info/PKG-INFO
+[1.595s] writing dependency_links to ../../../build/atlas_web/atlas_web.egg-info/dependency_links.txt
+[1.595s] writing entry points to ../../../build/atlas_web/atlas_web.egg-info/entry_points.txt
+[1.595s] writing requirements to ../../../build/atlas_web/atlas_web.egg-info/requires.txt
+[1.595s] writing top-level names to ../../../build/atlas_web/atlas_web.egg-info/top_level.txt
+[1.598s] reading manifest file '../../../build/atlas_web/atlas_web.egg-info/SOURCES.txt'
+[1.599s] writing manifest file '../../../build/atlas_web/atlas_web.egg-info/SOURCES.txt'
+[1.599s] running build
+[1.600s] running build_py
+[1.600s] running install
+[1.601s] running install_lib
+[1.603s] running install_data
+[1.604s] running install_egg_info
+[1.604s] removing '/home/doanh/atlas_c1/install/atlas_web/lib/python3.10/site-packages/atlas_web-1.0.0-py3.10.egg-info' (and everything under it)
+[1.604s] Copying ../../../build/atlas_web/atlas_web.egg-info to /home/doanh/atlas_c1/install/atlas_web/lib/python3.10/site-packages/atlas_web-1.0.0-py3.10.egg-info
+[1.605s] running install_scripts
+[1.626s] Installing atlas_web_node script to /home/doanh/atlas_c1/install/atlas_web/lib/atlas_web
+[1.626s] writing list of installed files to '/home/doanh/atlas_c1/build/atlas_web/install.log'
+[1.660s] Invoked command in '/home/doanh/atlas_c1/src/atlas_base/atlas_web' returned '0': PYTHONPATH=/home/doanh/atlas_c1/build/atlas_web/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/doanh/atlas_c1/install/atlas_web/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/atlas_web build --build-base /home/doanh/atlas_c1/build/atlas_web/build install --record /home/doanh/atlas_c1/build/atlas_web/install.log --single-version-externally-managed install_data

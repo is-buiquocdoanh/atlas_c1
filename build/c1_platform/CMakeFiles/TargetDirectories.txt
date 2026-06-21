@@ -1,0 +1,9 @@
+/home/doanh/atlas_c1/build/c1_platform/CMakeFiles/uninstall.dir
+/home/doanh/atlas_c1/build/c1_platform/CMakeFiles/c1_platform_uninstall.dir
+/home/doanh/atlas_c1/build/c1_platform/CMakeFiles/test.dir
+/home/doanh/atlas_c1/build/c1_platform/CMakeFiles/edit_cache.dir
+/home/doanh/atlas_c1/build/c1_platform/CMakeFiles/rebuild_cache.dir
+/home/doanh/atlas_c1/build/c1_platform/CMakeFiles/list_install_components.dir
+/home/doanh/atlas_c1/build/c1_platform/CMakeFiles/install.dir
+/home/doanh/atlas_c1/build/c1_platform/CMakeFiles/install/local.dir
+/home/doanh/atlas_c1/build/c1_platform/CMakeFiles/install/strip.dir

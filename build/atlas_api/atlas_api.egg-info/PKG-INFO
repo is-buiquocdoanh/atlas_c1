@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: atlas-api
+Version: 0.1.0
+Summary: REST + WebSocket API server for the Atlas robot navigation system
+Home-page: UNKNOWN
+Maintainer: doanh
+Maintainer-email: doanh762003@gmail.com
+License: Apache-2.0
+Platform: UNKNOWN
+Provides-Extra: test
+
+UNKNOWN
+

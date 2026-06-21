@@ -1,0 +1,3 @@
+[console_scripts]
+atlas_web_node = atlas_web.server:main
+

@@ -1,0 +1,3 @@
+[console_scripts]
+atlas_api_node = atlas_api.main:main
+

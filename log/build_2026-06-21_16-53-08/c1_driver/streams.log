@@ -1,0 +1,180 @@
+[0.619s] Invoking command in '/home/doanh/atlas_c1/build/c1_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --build /home/doanh/atlas_c1/build/c1_driver -- -j12 -l12
+[0.694s] [  2%] [0mBuilt target c1_driver__rs[0m
+[0.694s] [  5%] [0mBuilt target c1_driver__cpp[0m
+[0.697s] [ 15%] [0mBuilt target c1_driver__rosidl_generator_c[0m
+[0.698s] [ 15%] [0mBuilt target ament_cmake_python_copy_c1_driver[0m
+[0.706s] [ 25%] [0mBuilt target c1_driver__rosidl_typesupport_introspection_cpp[0m
+[0.706s] [ 35%] [0mBuilt target c1_driver__rosidl_typesupport_fastrtps_cpp[0m
+[0.708s] [ 45%] [0mBuilt target c1_driver__rosidl_typesupport_cpp[0m
+[0.709s] [ 55%] [0mBuilt target c1_driver__rosidl_typesupport_c[0m
+[0.710s] [ 65%] [0mBuilt target c1_driver__rosidl_typesupport_introspection_c[0m
+[0.715s] [ 75%] [0mBuilt target c1_driver__rosidl_typesupport_fastrtps_c[0m
+[0.721s] [ 75%] [0mBuilt target c1_driver[0m
+[0.728s] [ 77%] [0mBuilt target c1_driver__py[0m
+[0.738s] [ 85%] [0mBuilt target c1_driver__rosidl_generator_py[0m
+[0.757s] [ 90%] [0mBuilt target c1_driver__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.758s] [ 95%] [0mBuilt target c1_driver__rosidl_typesupport_introspection_c__pyext[0m
+[0.770s] [100%] [0mBuilt target c1_driver__rosidl_typesupport_c__pyext[0m
+[1.003s] running egg_info
+[1.003s] writing c1_driver.egg-info/PKG-INFO
+[1.004s] writing dependency_links to c1_driver.egg-info/dependency_links.txt
+[1.004s] writing top-level names to c1_driver.egg-info/top_level.txt
+[1.006s] reading manifest file 'c1_driver.egg-info/SOURCES.txt'
+[1.007s] writing manifest file 'c1_driver.egg-info/SOURCES.txt'
+[1.030s] [100%] [0mBuilt target ament_cmake_python_build_c1_driver_egg[0m
+[1.204s] Invoked command in '/home/doanh/atlas_c1/build/c1_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --build /home/doanh/atlas_c1/build/c1_driver -- -j12 -l12
+[1.205s] Invoking command in '/home/doanh/atlas_c1/build/c1_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --install /home/doanh/atlas_c1/build/c1_driver
+[1.269s] -- Install configuration: ""
+[1.269s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/ament_index/resource_index/rosidl_interfaces/c1_driver
+[1.269s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver
+[1.269s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg
+[1.269s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/velquery.h
+[1.269s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/rosidl_generator_c__visibility_control.h
+[1.270s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/velinfo.h
+[1.270s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail
+[1.270s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail/velinfo__functions.h
+[1.270s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail/velquery__struct.h
+[1.270s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail/velinfo__functions.c
+[1.270s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail/velinfo__struct.h
+[1.270s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail/velinfo__type_support.h
+[1.270s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail/velquery__type_support.h
+[1.270s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail/velquery__functions.c
+[1.270s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail/velquery__functions.h
+[1.271s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/environment/library_path.sh
+[1.271s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/environment/library_path.dsv
+[1.271s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/lib/libc1_driver__rosidl_generator_c.so
+[1.271s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver
+[1.271s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg
+[1.271s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail
+[1.271s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail/velquery__rosidl_typesupport_fastrtps_c.h
+[1.271s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail/velinfo__rosidl_typesupport_fastrtps_c.h
+[1.271s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.271s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/lib/libc1_driver__rosidl_typesupport_fastrtps_c.so
+[1.272s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver
+[1.272s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg
+[1.272s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail
+[1.272s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail/velinfo__rosidl_typesupport_introspection_c.h
+[1.272s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail/velquery__type_support.c
+[1.272s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail/velinfo__type_support.c
+[1.272s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail/velquery__rosidl_typesupport_introspection_c.h
+[1.272s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.272s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/lib/libc1_driver__rosidl_typesupport_introspection_c.so
+[1.272s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/lib/libc1_driver__rosidl_typesupport_c.so
+[1.272s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver
+[1.272s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg
+[1.273s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/velquery.hpp
+[1.273s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail
+[1.273s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail/velinfo__traits.hpp
+[1.273s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail/velquery__struct.hpp
+[1.273s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail/velinfo__builder.hpp
+[1.273s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail/velinfo__type_support.hpp
+[1.273s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail/velinfo__struct.hpp
+[1.273s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail/velquery__builder.hpp
+[1.273s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail/velquery__traits.hpp
+[1.273s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail/velquery__type_support.hpp
+[1.273s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.273s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/velinfo.hpp
+[1.273s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver
+[1.273s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg
+[1.274s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail
+[1.274s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail/velinfo__rosidl_typesupport_fastrtps_cpp.hpp
+[1.274s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail/velquery__rosidl_typesupport_fastrtps_cpp.hpp
+[1.274s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail/dds_fastrtps
+[1.274s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.274s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/lib/libc1_driver__rosidl_typesupport_fastrtps_cpp.so
+[1.274s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver
+[1.274s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg
+[1.274s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail
+[1.274s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail/velquery__type_support.cpp
+[1.274s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail/velquery__rosidl_typesupport_introspection_cpp.hpp
+[1.274s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail/velinfo__type_support.cpp
+[1.275s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/include/c1_driver/c1_driver/msg/detail/velinfo__rosidl_typesupport_introspection_cpp.hpp
+[1.275s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/lib/libc1_driver__rosidl_typesupport_introspection_cpp.so
+[1.275s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/lib/libc1_driver__rosidl_typesupport_cpp.so
+[1.275s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/environment/pythonpath.sh
+[1.275s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/environment/pythonpath.dsv
+[1.275s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/local/lib/python3.10/dist-packages/c1_driver-0.0.0-py3.10.egg-info
+[1.275s] -- Installing: /home/doanh/atlas_c1/install/c1_driver/local/lib/python3.10/dist-packages/c1_driver-0.0.0-py3.10.egg-info/top_level.txt
+[1.275s] -- Installing: /home/doanh/atlas_c1/install/c1_driver/local/lib/python3.10/dist-packages/c1_driver-0.0.0-py3.10.egg-info/PKG-INFO
+[1.275s] -- Installing: /home/doanh/atlas_c1/install/c1_driver/local/lib/python3.10/dist-packages/c1_driver-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.275s] -- Installing: /home/doanh/atlas_c1/install/c1_driver/local/lib/python3.10/dist-packages/c1_driver-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.275s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/local/lib/python3.10/dist-packages/c1_driver
+[1.275s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/local/lib/python3.10/dist-packages/c1_driver/__init__.py
+[1.275s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/local/lib/python3.10/dist-packages/c1_driver/_c1_driver_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.275s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/local/lib/python3.10/dist-packages/c1_driver/c1_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.276s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/local/lib/python3.10/dist-packages/c1_driver/_c1_driver_s.ep.rosidl_typesupport_introspection_c.c
+[1.276s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/local/lib/python3.10/dist-packages/c1_driver/msg
+[1.276s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/local/lib/python3.10/dist-packages/c1_driver/msg/__init__.py
+[1.276s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/local/lib/python3.10/dist-packages/c1_driver/msg/_velquery_s.c
+[1.276s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/local/lib/python3.10/dist-packages/c1_driver/msg/_velinfo_s.c
+[1.276s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/local/lib/python3.10/dist-packages/c1_driver/msg/_velquery.py
+[1.276s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/local/lib/python3.10/dist-packages/c1_driver/msg/_velinfo.py
+[1.276s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/local/lib/python3.10/dist-packages/c1_driver/_c1_driver_s.ep.rosidl_typesupport_c.c
+[1.276s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/local/lib/python3.10/dist-packages/c1_driver/c1_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.276s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/local/lib/python3.10/dist-packages/c1_driver/libc1_driver__rosidl_generator_py.so
+[1.276s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/local/lib/python3.10/dist-packages/c1_driver/c1_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.299s] Listing '/home/doanh/atlas_c1/install/c1_driver/local/lib/python3.10/dist-packages/c1_driver'...
+[1.300s] Listing '/home/doanh/atlas_c1/install/c1_driver/local/lib/python3.10/dist-packages/c1_driver/msg'...
+[1.303s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/local/lib/python3.10/dist-packages/c1_driver/c1_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.304s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/local/lib/python3.10/dist-packages/c1_driver/c1_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.304s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/local/lib/python3.10/dist-packages/c1_driver/c1_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.304s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/lib/libc1_driver__rosidl_generator_py.so
+[1.304s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/ament_index/resource_index/rust_packages/c1_driver
+[1.304s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/rust
+[1.304s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/rust/src
+[1.304s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/rust/src/lib.rs
+[1.304s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/rust/src/msg
+[1.305s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/rust/src/msg/rmw.rs
+[1.305s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/rust/src/msg.rs
+[1.305s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/rust/build.rs
+[1.305s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/rust/Cargo.toml
+[1.305s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/msg/Velinfo.idl
+[1.305s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/msg/Velquery.idl
+[1.305s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/msg/Velinfo.msg
+[1.305s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/msg/Velquery.msg
+[1.305s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver//launch
+[1.305s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver//scripts
+[1.305s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver//scripts/kinematic.py
+[1.306s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver//scripts/ros_serial_bridge.py
+[1.306s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/lib/c1_driver/ros_serial_bridge.py
+[1.306s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/lib/c1_driver/kinematic.py
+[1.306s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/ament_index/resource_index/package_run_dependencies/c1_driver
+[1.306s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/ament_index/resource_index/parent_prefix_path/c1_driver
+[1.306s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/environment/ament_prefix_path.sh
+[1.306s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/environment/ament_prefix_path.dsv
+[1.306s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/environment/path.sh
+[1.306s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/environment/path.dsv
+[1.306s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/local_setup.bash
+[1.306s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/local_setup.sh
+[1.306s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/local_setup.zsh
+[1.307s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/local_setup.dsv
+[1.307s] -- Installing: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/package.dsv
+[1.307s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/ament_index/resource_index/packages/c1_driver
+[1.307s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/cmake/export_c1_driver__rosidl_generator_cExport.cmake
+[1.307s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/cmake/export_c1_driver__rosidl_generator_cExport-noconfig.cmake
+[1.307s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/cmake/export_c1_driver__rosidl_typesupport_fastrtps_cExport.cmake
+[1.307s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/cmake/export_c1_driver__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.307s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/cmake/c1_driver__rosidl_typesupport_introspection_cExport.cmake
+[1.307s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/cmake/c1_driver__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.307s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/cmake/c1_driver__rosidl_typesupport_cExport.cmake
+[1.307s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/cmake/c1_driver__rosidl_typesupport_cExport-noconfig.cmake
+[1.308s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/cmake/export_c1_driver__rosidl_generator_cppExport.cmake
+[1.308s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/cmake/export_c1_driver__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.309s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/cmake/export_c1_driver__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.309s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/cmake/c1_driver__rosidl_typesupport_introspection_cppExport.cmake
+[1.309s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/cmake/c1_driver__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.309s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/cmake/c1_driver__rosidl_typesupport_cppExport.cmake
+[1.309s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/cmake/c1_driver__rosidl_typesupport_cppExport-noconfig.cmake
+[1.309s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/cmake/export_c1_driver__rosidl_generator_pyExport.cmake
+[1.310s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/cmake/export_c1_driver__rosidl_generator_pyExport-noconfig.cmake
+[1.310s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/cmake/rosidl_cmake-extras.cmake
+[1.310s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.310s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[1.310s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/cmake/ament_cmake_export_targets-extras.cmake
+[1.310s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.310s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.310s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.310s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/cmake/c1_driverConfig.cmake
+[1.310s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/cmake/c1_driverConfig-version.cmake
+[1.310s] -- Up-to-date: /home/doanh/atlas_c1/install/c1_driver/share/c1_driver/package.xml
+[1.311s] Invoked command in '/home/doanh/atlas_c1/build/c1_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/atlas_c1/install/atlas_web:/home/doanh/atlas_c1/install/atlas_app:/home/doanh/atlas_c1/install/atlas_app_robot:/home/doanh/atlas_c1/install/atlas_api:/opt/ros/humble /home/doanh/.local/bin/cmake --install /home/doanh/atlas_c1/build/c1_driver
