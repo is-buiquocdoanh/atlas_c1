@@ -1,6 +1,0 @@
-source;share/atlas_app/hook/pythonpath.ps1
-source;share/atlas_app/hook/pythonpath.dsv
-source;share/atlas_app/hook/pythonpath.sh
-source;share/atlas_app/hook/ament_prefix_path.ps1
-source;share/atlas_app/hook/ament_prefix_path.dsv
-source;share/atlas_app/hook/ament_prefix_path.sh

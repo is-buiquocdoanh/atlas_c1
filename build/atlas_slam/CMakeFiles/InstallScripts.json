@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/doanh/atlas_c1/build/atlas_slam/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/doanh/atlas_c1/build/c1_bringup/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

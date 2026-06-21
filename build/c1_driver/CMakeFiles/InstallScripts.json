@@ -1,9 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/doanh/atlas_c1/build/c1_driver/cmake_install.cmake",
-		"/home/doanh/atlas_c1/build/c1_driver/c1_driver__py/cmake_install.cmake",
-		"/home/doanh/atlas_c1/build/c1_driver/c1_driver__rs/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

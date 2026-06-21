@@ -1,6 +1,0 @@
-Invoking command in '/home/doanh/atlas_c1/build/c1_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/doanh/.local/bin/cmake /home/doanh/atlas_c1/src/c1_bringup -DCMAKE_INSTALL_PREFIX=/home/doanh/atlas_c1/install/c1_bringup
-Invoked command in '/home/doanh/atlas_c1/build/c1_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/doanh/.local/bin/cmake /home/doanh/atlas_c1/src/c1_bringup -DCMAKE_INSTALL_PREFIX=/home/doanh/atlas_c1/install/c1_bringup
-Invoking command in '/home/doanh/atlas_c1/build/c1_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/doanh/.local/bin/cmake --build /home/doanh/atlas_c1/build/c1_bringup -- -j12 -l12
-Invoked command in '/home/doanh/atlas_c1/build/c1_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/doanh/.local/bin/cmake --build /home/doanh/atlas_c1/build/c1_bringup -- -j12 -l12
-Invoking command in '/home/doanh/atlas_c1/build/c1_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/doanh/.local/bin/cmake --install /home/doanh/atlas_c1/build/c1_bringup
-Invoked command in '/home/doanh/atlas_c1/build/c1_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/doanh/.local/bin/cmake --install /home/doanh/atlas_c1/build/c1_bringup

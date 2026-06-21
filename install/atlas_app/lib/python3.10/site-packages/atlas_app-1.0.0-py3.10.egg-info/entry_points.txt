@@ -1,3 +1,0 @@
-[console_scripts]
-atlas_app = atlas_app.main:main
-
