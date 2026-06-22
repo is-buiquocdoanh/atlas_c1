@@ -17,12 +17,12 @@ ydlidar_ros2_driver_node:
     sample_rate: 20
     abnormal_check_count: 4
     fixed_resolution: true
-    reversion: true
+    reversion: false
     inverted: true
     auto_reconnect: true
     isSingleChannel: false
     intensity: false
-    support_motor_dtr: false
+    support_motor_dtr: true
     angle_max: 180.0
     angle_min: -180.0
     range_max: 50.0

@@ -85,19 +85,19 @@ def generate_launch_description():
         )
     )
     
-    # # API
-    # api_launch = IncludeLaunchDescription(
-    #     PythonLaunchDescriptionSource(
-    #         os.path.join(get_package_share_directory('atlas_api'), 'launch', 'atlas_api_real.launch.py')
-    #     )
-    # )
+    # API
+    api_launch = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(get_package_share_directory('atlas_api'), 'launch', 'atlas_api_real.launch.py')
+        )
+    )
 
-    # # app PC
-    # app_pc_launch = IncludeLaunchDescription(
-    #     PythonLaunchDescriptionSource(
-    #         os.path.join(get_package_share_directory('atlas_app'), 'launch', 'atlas_app.launch.py')
-    #     )
-    # )
+    # app PC
+    app_pc_launch = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(get_package_share_directory('atlas_app'), 'launch', 'atlas_app.launch.py')
+        )
+    )
     
     return LaunchDescription([
         display,
@@ -107,5 +107,7 @@ def generate_launch_description():
         scan_relay,
         rf2o_node,
         joy_launch,
+        api_launch,
+        app_pc_launch,
 
     ])
