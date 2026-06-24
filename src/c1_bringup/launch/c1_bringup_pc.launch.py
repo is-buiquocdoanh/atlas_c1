@@ -100,6 +100,7 @@ def generate_launch_description():
     )
     
     return LaunchDescription([
+        # laser_tf,
         display,
         # ydlidar_node,
         # ros_serial_bridge,
@@ -107,7 +108,7 @@ def generate_launch_description():
         scan_relay,
         rf2o_node,
         joy_launch,
-        api_launch,
-        app_pc_launch,
+        # api_launch,
+        # app_pc_launch,
 
     ])
