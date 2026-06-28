@@ -1,7 +1,7 @@
 import os
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
-from launch.actions import IncludeLaunchDescription
+from launch.actions import IncludeLaunchDescription, TimerAction
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.actions import LifecycleNode, Node
 
@@ -101,7 +101,7 @@ def generate_launch_description():
     
     return LaunchDescription([
         # display,
-        ydlidar_node,
+        TimerAction(period=2.0, actions=[ydlidar_node]),
         ros_serial_bridge,
         kinematic_node,
         # scan_relay,
