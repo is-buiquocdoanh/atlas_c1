@@ -101,7 +101,7 @@ def generate_launch_description():
     
     return LaunchDescription([
         # display,
-        TimerAction(period=2.0, actions=[ydlidar_node]),
+        ydlidar_node,
         ros_serial_bridge,
         kinematic_node,
         # scan_relay,
