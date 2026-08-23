@@ -18,7 +18,7 @@ def generate_launch_description():
         )
     )
 
-    # YDLidar TG30 (ydlidar.yaml gốc + devices.yaml override port)
+    # YDLidar X3pro (ydlidar.yaml gốc + devices.yaml override port)
     ydlidar_node = LifecycleNode(
         package='ydlidar_ros2_driver',
         executable='ydlidar_ros2_driver_node',

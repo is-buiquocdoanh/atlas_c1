@@ -5,7 +5,8 @@ ros_serial_bridge:
   ros__parameters:
     serial_port: "/dev/esp32"
     baudrate: 115200
-    
+
+# Lidar YDLidar X3pro    
 ydlidar_ros2_driver_node:
   ros__parameters:
     port: /dev/ydlidar

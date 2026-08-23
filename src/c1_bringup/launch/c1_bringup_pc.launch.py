@@ -18,7 +18,7 @@ def generate_launch_description():
         )
     )
 
-    # YDLidar TG30 (ydlidar.yaml gốc + devices.yaml override port)
+    # YDLidar X3pro (ydlidar.yaml gốc + devices.yaml override port)
     ydlidar_node = LifecycleNode(
         package='ydlidar_ros2_driver',
         executable='ydlidar_ros2_driver_node',
@@ -47,9 +47,6 @@ def generate_launch_description():
         output='screen',
     )
     
-
-
-
     # Relay /scan → /atlas/scan_filtered
     scan_relay = Node(
         package='topic_tools',
@@ -85,20 +82,6 @@ def generate_launch_description():
         )
     )
     
-    # API
-    api_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(get_package_share_directory('atlas_api'), 'launch', 'atlas_api_real.launch.py')
-        )
-    )
-
-    # app PC
-    app_pc_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(get_package_share_directory('atlas_app'), 'launch', 'atlas_app.launch.py')
-        )
-    )
-    
     return LaunchDescription([
         # laser_tf,
         display,
@@ -108,7 +91,4 @@ def generate_launch_description():
         scan_relay,
         rf2o_node,
         joy_launch,
-        api_launch,
-        app_pc_launch,
-
     ])
