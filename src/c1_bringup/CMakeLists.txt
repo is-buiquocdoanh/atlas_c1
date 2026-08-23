@@ -28,4 +28,9 @@ install(
   DESTINATION share/${PROJECT_NAME}/
 )
 
+install(PROGRAMS
+  scripts/lateral_teleop_node.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 ament_package()

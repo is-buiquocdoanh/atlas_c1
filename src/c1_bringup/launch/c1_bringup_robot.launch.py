@@ -106,6 +106,6 @@ def generate_launch_description():
         kinematic_node,
         # scan_relay,
         # rf2o_node,
-        joy_launch,
+        # joy_launch,
 
     ])

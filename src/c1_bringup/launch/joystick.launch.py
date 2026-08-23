@@ -25,6 +25,14 @@ def generate_launch_description():
             remappings=[('/cmd_vel','/cmd_vel_joy')]
          )
 
+    # Node đọc nút 3/1 trên /joy -> xuất lệnh đi ngang /cmd_vel_lateral
+    lateral_teleop_node = Node(
+            package='c1_bringup',
+            executable='lateral_teleop_node.py',
+            name='lateral_teleop_node',
+            parameters=[joy_params],
+         )
+
     # Node mux các lệnh /cmd_vel_* thành /cmd_vel
     twist_mux_node = Node(
             package='twist_mux',
@@ -38,5 +46,6 @@ def generate_launch_description():
     return LaunchDescription([
         joy_node,
         teleop_node,
+        lateral_teleop_node,
         twist_mux_node
     ])

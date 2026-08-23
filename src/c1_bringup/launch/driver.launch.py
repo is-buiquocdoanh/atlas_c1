@@ -35,13 +35,8 @@ def generate_launch_description():
         )
     )
 
-
-
-    
     return LaunchDescription([
-  
         ros_serial_bridge,
         kinematic_node,
-        joy_launch,
-
+        # joy_launch,
     ])
