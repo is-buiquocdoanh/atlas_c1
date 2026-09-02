@@ -11,8 +11,8 @@ const int pwm_left_front_pin2 = 21;
 #define ENC_RIGHT_FRONT_A 17
 #define ENC_RIGHT_FRONT_B 5
 
-const int pwm_right_front_pin1 = 18;
-const int pwm_right_front_pin2 = 13;
+const int pwm_right_front_pin1 = 16; //18
+const int pwm_right_front_pin2 = 18; //13
 
 #define ENC_LEFT_BACK_A 34
 #define ENC_LEFT_BACK_B 35

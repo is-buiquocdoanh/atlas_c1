@@ -17,13 +17,14 @@ collision_monitor:
     # to be ignored in circular case.
     # (3) "velocity_polygon" type with dynamically set polygon from velocity_polygons
     polygons: ["PolygonStop", "PolygonSlow", "FootprintApproach"]
+    # Robot thực tế: dài 32cm (front/rear ±0.16m), rộng 26cm (left/right ±0.13m), base_link ở tâm.
     PolygonStop:
       type: "polygon"
       points: [
-         0.45,  0.255,  # Trước-trái   (front +5cm, left +5cm)
-        -0.40,  0.255,  # Sau-trái     (rear flush, left +5cm)
-        -0.40, -0.255,  # Sau-phải     (rear flush, right +5cm)
-         0.45, -0.255   # Trước-phải   (front +5cm, right +5cm)
+         0.19,  0.16,  # Trước-trái   (16cm + 3cm margin)
+        -0.19,  0.16,  # Sau-trái     (16cm + 3cm margin)
+        -0.19, -0.16,  # Sau-phải     (16cm + 3cm margin)
+         0.19, -0.16   # Trước-phải   (16cm + 3cm margin)
       ]
       action_type: "stop"
       max_points: 3
@@ -33,10 +34,10 @@ collision_monitor:
     PolygonSlow:
       type: "polygon"
       points: [
-         0.60,  0.405,  # Trước-trái   (front +20cm, left +20cm)
-        -0.60,  0.405,  # Sau-trái     (rear +20cm, left +20cm)
-        -0.60, -0.405,  # Sau-phải     (rear +20cm, right +20cm)
-         0.60, -0.405   # Trước-phải   (front +20cm, right +20cm)
+         0.26,  0.23,  # Trước-trái   (16cm + 10cm margin)
+        -0.26,  0.23,  # Sau-trái     (16cm + 10cm margin)
+        -0.26, -0.23,  # Sau-phải     (16cm + 10cm margin)
+         0.26, -0.23   # Trước-phải   (16cm + 10cm margin)
       ]
       action_type: "slowdown"
       max_points: 3

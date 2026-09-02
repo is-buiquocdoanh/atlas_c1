@@ -3,7 +3,7 @@
 
 ros_serial_bridge:
   ros__parameters:
-    serial_port: "/dev/esp32"
+    serial_port: "/dev/ttyUSB0"
     baudrate: 115200
 
 # Lidar YDLidar X3pro    
